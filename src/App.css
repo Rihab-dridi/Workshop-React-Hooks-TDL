@@ -1,38 +1,71 @@
 .App {
   text-align: center;
+  width: 50%;
+  min-height: 400px;
+  margin: auto;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(248, 245, 248),
+    rgb(248, 245, 248),
+    rgb(49, 3, 49)
+  );
+  border-radius: 10px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn-add{
+  padding: 13px 25px;
+  background-color: rgba(184, 184, 228, 0.068);
+  border-radius: 10px;
+  border: none;
+  font-size: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.img {
+  padding-top: 80px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+img {
+  height: 200px;
+}
+button:hover {
+  cursor: pointer;
   color: white;
+  font-weight: bolder;
+  background-image: linear-gradient(
+    to right,
+    rgb(248, 245, 248),
+    rgb(49, 3, 49)
+  );
+}
+#myInput {
+  padding: 13px 35px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  color: #4696e5;
+  font-size: 18px;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.todoList-container{
+  margin-top: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.todo-container{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+}
+.todo-container button{
+  padding: 10px 20px;
+  background-color: rgba(184, 184, 228, 0.068);
+  color:rgb(100, 98, 98);
+  border-radius: 10px;
+  border: none;
+  font-size: 15px;
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.todo-container button:hover{
+  color:black
 }
